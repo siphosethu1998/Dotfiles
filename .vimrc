@@ -36,3 +36,8 @@ endif
 
 " increment letters as well
 set nrformats+=alpha
+
+" set increment to C-a C-a instead of C-a: doing this coz of tmux
+nnoremap <C-a><C-a> <C-a>
+vnoremap <C-a><C-a> <C-a>
+vnoremap g<C-a><C-a> g<C-a>
