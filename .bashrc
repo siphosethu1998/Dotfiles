@@ -2,7 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-# use c for clear instead of clear
+# use c for clear as well
 alias c=clear 
 
 # enable vim movements on the terminal

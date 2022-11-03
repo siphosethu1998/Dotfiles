@@ -33,3 +33,6 @@ if executable(s:clip)
         autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
     augroup END
 endif
+
+" increment letters as well
+set nrformats+=alpha
